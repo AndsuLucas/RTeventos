@@ -8,7 +8,8 @@ faça como o exemplo: "/exemplo" => "./paginas/minhapagina.php"
 $caminhos = [
 
 	"/" => "index.php",
-	
+	"/exemplo" => "./paginas/exemplo.php"
+
 ];
 
 
