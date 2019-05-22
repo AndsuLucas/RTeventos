@@ -16,8 +16,18 @@ require_once "funcoes/carregarPaginas.php";
           //rendenizando paginas. Favor não mexer se não souber oq está fazendo.
           //coloque seus arquivos na pasta (paginas); 
           require_once carregarPagina();
+        
+          /*
+            suponhamos que o nome da sua página seja minhapagina.php.
+            Você vai no diretório paginas e copia ela para lá. No diretório "include", no arquivo menu lateral você podera encontrar os respectivos links para as respectivas páginas. Caso você faça parte do grupo encarregado pelos clientes, você irá até este link e colocará no href ->
+
+            href="?pagina=minhapagina" // apenas o nome e não e extensao
+
+            teste.php = ?pagina = teste
+            batata.php = ?pagina = batata
 
 
+          */
 
           ?>
         
